@@ -15,7 +15,7 @@ int phoneCount = 0;
 // 성능 조회 및 교체 추천 기능
 void checkPerformance() {
     char target[50];
-    printf("\n조회할 휴대폰 기종 이름을 입력하세요(한글로만, 띄어쓰기 금지): ");
+    printf("\n조회할 휴대폰 기종 이름을 입력하세요(ex-아이폰13프로맥스,갤럭시s24): ");
     scanf(" %[^\n]", target);
 
     for (int i = 0; i < phoneCount; i++) {
@@ -83,20 +83,20 @@ void registerPhones() {
 {"아이폰11프로", 1710, "A13 Bionic, 고급 카메라"},
 {"아이폰11", 1703, "A13 Bionic, 가성비 명작"},
 
-{"갤럭시S25울트라", 2853, "Snapdragon 8 Elite, 최고 플래그십"},
-{"갤럭시S25플러스", 2842, "Snapdragon 8 Elite, 대화면 모델"},
-{"갤럭시S25", 2713, "Snapdragon 8 Elite, 최신 기본형"},
+{"갤럭시s25울트라", 2853, "Snapdragon 8 Elite, 최고 플래그십"},
+{"갤럭시s25플러스", 2842, "Snapdragon 8 Elite, 대화면 모델"},
+{"갤럭시s25", 2713, "Snapdragon 8 Elite, 최신 기본형"},
 
-{"갤럭시S24플러스", 2110, "Snapdragon 8 Gen 3, 고급형 모델"},
-{"갤럭시S24울트라", 2108, "Snapdragon 8 Gen 3, 스펙 최상위"},
-{"갤럭시S24", 2045, "Snapdragon 8 Gen 3, 가성비 플래그십"},
+{"갤럭시s24플러스", 2110, "Snapdragon 8 Gen 3, 고급형 모델"},
+{"갤럭시s24울트라", 2108, "Snapdragon 8 Gen 3, 스펙 최상위"},
+{"갤럭시s24", 2045, "Snapdragon 8 Gen 3, 가성비 플래그십"},
 
-{"갤럭시S24플러스엑시노스", 2040, "Exynos 2400, 엑시노스 버전"},
-{"갤럭시S24엑시노스", 1940, "Exynos 2400, 엑시노스 기본형"},
+{"갤럭시s24플러스엑시노스", 2040, "Exynos 2400, 엑시노스 버전"},
+{"갤럭시s24엑시노스", 1940, "Exynos 2400, 엑시노스 기본형"},
 
-{"갤럭시S23플러스", 1922, "Snapdragon 8 Gen 2, 작년 플래그십"},
-{"갤럭시S23울트라", 1911, "Snapdragon 8 Gen 2, 카메라 최상위"},
-{"갤럭시S23", 1874, "Snapdragon 8 Gen 2, 기본형"},
+{"갤럭시s23플러스", 1922, "Snapdragon 8 Gen 2, 작년 플래그십"},
+{"갤럭시s23울트라", 1911, "Snapdragon 8 Gen 2, 카메라 최상위"},
+{"갤럭시s23", 1874, "Snapdragon 8 Gen 2, 기본형"},
 
 {"갤럭시Z플립6", 1812, "Snapdragon 8 Gen 3, 최신 플립"},
 {"갤럭시Z플립5", 1778, "Snapdragon 8 Gen 2, 이전 플립 모델"}
