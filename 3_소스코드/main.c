@@ -33,7 +33,7 @@ void checkPerformance() {
                 printf("추천: 돈이 넘쳐나면 바꿔라.\n");
             } 
             else {
-                printf("추천: 딱 지같은거 쓴다;;.\n");
+                printf("휴대폰이 아니라 벽돌 비슷한 무언가.\n");
             }
             return;
         }
