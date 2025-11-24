@@ -15,7 +15,7 @@ int phoneCount = 0;
 // 성능 조회 및 교체 추천 기능
 void checkPerformance() {
     char target[50];
-    printf("\n조회할 휴대폰 기종 이름을 입력하세요(ex-아이폰13프로맥스,갤럭시s24): ");
+    printf("\n조회할 휴대폰 기종 이름을 입력하세요(ex 아이폰13프로맥스,갤럭시s24): ");
     scanf(" %[^\n]", target);
 
     for (int i = 0; i < phoneCount; i++) {
