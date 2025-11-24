@@ -26,20 +26,20 @@ void checkPerformance() {
             printf("특징: %s\n", phoneList[i].features);
 
             // 교체 추천 판단
-            if (phoneList[i].score >= 1000000) {
+            if (phoneList[i].score >= 2500) {
                 printf("추천: 아직 짱짱함.\n");
             } 
-            else if (phoneList[i].score >= 800000) {
+            else if (phoneList[i].score >= 2000) {
                 printf("추천: 돈이 넘쳐나면 바꿔라.\n");
             } 
             else {
-                printf("추천: 이딴 것도 폰이냐? 당장 바꿔라.\n");
+                printf("추천: 딱 지같은거 쓴다;;.\n");
             }
             return;
         }
     }
 
-    printf("\n이상한 힙스터 폰 쓰지 마라...\n");
+    printf("\n이상한 힙스터폰 쓰지 마라\n");
 }
 
 // 초기 데이터 등록
@@ -71,8 +71,8 @@ void registerPhones() {
 {"아이폰13미니", 2221, "A15 Bionic, 초소형 플래그십"},
 {"아이폰13", 2214, "A15 Bionic, 성능 균형 좋음"},
 
-{"아이폰SE3세대", 2265, "A15 Bionic, 홈버튼 + 저가 플래그십"},
-{"아이폰SE2세대", 1670, "A13 Bionic, 작지만 빠른 홈버튼 모델"},
+{"아이폰SE3세대", 2265, "A15 Bionic, 홈버튼 + 저가 플래그십(아이폰 13과 같은 칩)"},
+{"아이폰SE2세대", 1670, "A13 Bionic, 작지만 빠른 홈버튼 모델(아이폰 11과 같은 칩)"},
 
 {"아이폰12프로맥스", 2124, "A14 Bionic, 큰 화면 + 좋은 카메라"},
 {"아이폰12프로", 2078, "A14 Bionic, 첫 LiDAR 지원"},
